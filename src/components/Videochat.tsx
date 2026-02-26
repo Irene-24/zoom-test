@@ -84,15 +84,14 @@ const Videochat = (props: {
   }, [transcripts]);
 
   useEffect(() => {
-    if (clientRef.current && isInSession && participants.length > 0) {
-      console.log({ client: clientRef.current });
-      const ltt = clientRef.current.getLiveTranscriptionClient();
-      const cloudRecording = clientRef.current.getRecordingClient();
-
-      cloudRecording.startCloudRecording();
-
-      ltt.startLiveTranscription();
-    }
+    //not really needed for now, cloud reciding has stuff
+    // if (clientRef.current && isInSession && participants.length > 0) {
+    //   console.log({ client: clientRef.current });
+    //   const ltt = clientRef.current.getLiveTranscriptionClient();
+    //   const cloudRecording = clientRef.current.getRecordingClient();
+    //   cloudRecording.startCloudRecording();
+    //   ltt.startLiveTranscription();
+    // }
   }, [isInSession, participants.length]);
   console.log({ participants });
 
@@ -111,6 +110,7 @@ const Videochat = (props: {
               participant.bVideoOn ? (
                 <VideoPlayerComponent key={participant.userId} user={participant} />
               ) : (
+                // better to use profile avatar, the one here always uses zoom account avatar
                 <div
                   key={`av-${participant.userId}`}
                   className="relative w-10 h-10 bg-red-200"
