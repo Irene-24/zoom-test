@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { zoomFetch } from "@/lib/zoom-api";
 import { RecordingActions } from "@/components/RecordingActions";
 
 type RecordingFile = {
@@ -25,8 +26,7 @@ type RecordingSession = {
 };
 
 async function getRecordings(): Promise<RecordingSession[]> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:2323";
-  const res = await fetch(`${baseUrl}/api/zoom/recordings`, { cache: "no-store" });
+  const res = await zoomFetch("/videosdk/recordings?page_size=30");
   if (!res.ok) return [];
   const data = await res.json();
   return data.sessions ?? [];
