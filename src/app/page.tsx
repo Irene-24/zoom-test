@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -15,6 +16,15 @@ export default function Home() {
       <h1 className="text-3xl font-bold text-center my-4">
         Zoom VideoSDK Next.js Quickstart
       </h1>
+
+      <div className="flex gap-4 mb-8">
+        <Link href="/create-session">
+          <Button variant="outline">Create Session (REST API)</Button>
+        </Link>
+        <Link href="/recordings">
+          <Button variant="outline">View Recordings</Button>
+        </Link>
+      </div>
       <Input
         type="text"
         className="w-full max-w-xs"
