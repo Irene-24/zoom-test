@@ -84,14 +84,23 @@ const Videochat = (props: {
   }, [transcripts]);
 
   useEffect(() => {
+    //turn off setting in dshanpdrd, also use consent from partcipants somwhow
     //not really needed for now, cloud reciding has stuff
-    // if (clientRef.current && isInSession && participants.length > 0) {
-    //   console.log({ client: clientRef.current });
-    //   const ltt = clientRef.current.getLiveTranscriptionClient();
-    //   const cloudRecording = clientRef.current.getRecordingClient();
-    //   cloudRecording.startCloudRecording();
-    //   ltt.startLiveTranscription();
-    // }
+    if (clientRef.current && isInSession && participants.length > 0) {
+      // console.log({ client: clientRef.current });
+      // const ltt = clientRef.current.getLiveTranscriptionClient();
+      const cloudRecording = clientRef.current.getRecordingClient();
+      cloudRecording.startCloudRecording();
+      // ltt.startLiveTranscription();
+    }
+
+    return () => {
+      if (clientRef.current) {
+        const cloudRecording = clientRef.current.getRecordingClient();
+        cloudRecording.stopCloudRecording();
+        // ltt.stopLiveTranscription();
+      }
+    };
   }, [isInSession, participants.length]);
   console.log({ participants });
 

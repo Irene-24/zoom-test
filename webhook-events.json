@@ -1,0 +1,44 @@
+[
+  {
+    "receivedAt": "2026-03-01T19:25:23.840Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "popping",
+        "start_time": "2026-03-01T19:23:57Z",
+        "timezone": "",
+        "recording_files": [
+          {
+            "id": "b3eb0e7f-a9e2-478a-9709-446a6acd046e",
+            "status": "completed",
+            "recording_start": "2026-03-01T19:23:58Z",
+            "recording_end": "2026-03-01T19:24:26Z",
+            "file_type": "TIMELINE",
+            "file_size": 11493,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/opmHvhsY2I2QYRSRJ5auoM1IRBCab09KBLF5wMGIkDLPFBMSCgm4WM184vgpHXA42C2QYL6-tVwTf7Wq.JitFi-SWx4Xb7xaH/q38_1j5emPHexH6yb1iH5Nu0XgBNSLP3iULXmatLdPBtWuYbyM8Apn-7a9xxUDQwlWhSHrGTQ6LRCps70EetmWb36qKXNTW3wayCHN9fL9NwCBDJr5N3U3AG4KjHMvJI6831B-HpKidSqJKgXVOinQkK0s7XBZ-sa29UzAVhcdPWg5CH1nd3CafeyjML-rwdFy7OmsLPJ6hahhBpAtq92Fh69Ey0NlcKPywO8CxQMoKfdvht7AXu5FTv6LJ0aj31anCgNYW8NuqpfAteubij1TU-z4P6I8aQoU6BxleVQtqgpqEOfNXQEZiil3iG81Hr95jqIEzrwQIHnazPVanTcw",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          },
+          {
+            "id": "dc31b303-649b-4a31-91b7-15e7e2734460",
+            "status": "completed",
+            "recording_start": "2026-03-01T19:23:58Z",
+            "recording_end": "2026-03-01T19:24:26Z",
+            "file_type": "MP4",
+            "file_size": 1968464,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/egDi6XKoOuFuLFPXXI7fsQAg4HM6Su4oO1H-D0vv-SJBklDV2HiceyKtJEdzgIm0jVivZqiUMXSaR1Be.GfNbmtnX5FWWK6ov/I9fLppPo1rDoReaizZo6zFQwgUIAa-nkVqGjGuEvh4KUMrdiQ_xvrVKHv-4f04zcL9McMtc58RnqN_OmaTNkOf709z1BzeErq7cjzk2ZPla693Xean_wO6D6qM89N7xvGaYKHnMrsfhZJBkKhLdmGolaXuGKdYSl-kKpHGF37n_vnoTR5Ek5QTGhZI0zSH-mIdtVIY_T5ye3CeQ8gHpVPcy2L4nqRS4FChMVDchaFWWrkt0Obs1My6NfoJm-osGOTeD2Q-Oh_7OwP3BTZRLIqLjZ7wdDjTRV5E2NE-rU7GvKdrt0OilmWXCxY6ZwmZV62B9fNNehLISmpfpH_Aow7Q",
+            "recording_type": "shared_screen_with_speaker_view",
+            "file_extension": "MP4",
+            "clip_id": ""
+          }
+        ],
+        "session_key": "",
+        "session_id": "Ep48cZQnTyG39ydzg+jrtA=="
+      }
+    },
+    "event_ts": 1772393108210,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJFcDQ4Y1pRblR5RzM5eWR6ZytqcnRBPT0iLCJleHAiOjE3NzI0Nzk1MjMsImlhdCI6MTc3MjM5MzEyMywidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.xm5diOK93Y7Bwu8PtnTgaBMkxhn3qgjaWE46xS0brisC5SQxKuzZHMKf1x22dn-2OHbqGdM_SBilHl0n-zyj9g"
+  }
+]
