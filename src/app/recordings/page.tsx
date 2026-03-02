@@ -2,6 +2,8 @@ import Link from "next/link";
 import { zoomFetch } from "@/lib/zoom-api";
 import { RecordingActions } from "@/components/RecordingActions";
 
+export const dynamic = "force-dynamic";
+
 type RecordingFile = {
   id: string;
   file_type: "MP4" | "M4A" | "TIMELINE" | "TRANSCRIPT" | "CHAT" | "CC" | "CSV";
