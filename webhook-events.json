@@ -276,5 +276,351 @@
     },
     "event_ts": 1772438815878,
     "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJYeUZvNUhLZlNpT0QrVEk4cHlaODF3PT0iLCJleHAiOjE3NzI1MjUyMzEsImlhdCI6MTc3MjQzODgzMSwidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.CDIYT_4hrAuLCxt8eJRyOK59xko3m_GPITXwfDfXh2CtO9s4A26aHZtFGzovO-D5d3XamS6SchBUduA8GC4pFw"
+  },
+  {
+    "receivedAt": "2026-03-03T14:30:40.364Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "cool",
+        "start_time": "2026-03-03T14:29:17Z",
+        "timezone": "",
+        "recording_files": [
+          {
+            "id": "ef9ccbeb-0578-49b2-9569-2807a9b5b801",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:29:19Z",
+            "recording_end": "2026-03-03T14:29:34Z",
+            "file_type": "MP4",
+            "file_size": 761404,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/G53PWZA01QnDprVui9y0ZyGLtxzci56_zpd3q85uY3q2WksqcHe_LH3gegHqdlEJCGIrEHkUfJ8lFK50.F1C75yirvhqmwME8/g7_2XkloYtN7Zvk_cCjbC5m4tT8jGvPy-Ur6taeHHy5eYs8J4HKcBSZ9kLAVKCWRDgQzuuTEnWMvE94S4nn40PSBgyERrjEynfFg2CRH-jUBG10WsSmsLRGGSY1XtyysqQa51es2v0ff3SlMN7tO42TRE9XaHhlewvJ7SLPfzFPVFMZDf_LuSxYazULE_NHPHB20yvWE7IfxOIxOGAkR62bHCvn7hlBCJN4pkUPlA5hdFqXRhS6Bl2eb_UgKSi0Y5J0_LVkO6expy2CbVYIOLws7bbnPlGII--3FLfFXvQv5LqcAV46wRLVWTJdEC2FyGoJUnYyzILKnkvk2ieG2WQ",
+            "recording_type": "active_speaker",
+            "file_extension": "MP4",
+            "clip_id": ""
+          },
+          {
+            "id": "fa50cc96-668f-4fb8-bced-76ab26d14e5c",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:29:19Z",
+            "recording_end": "2026-03-03T14:29:34Z",
+            "file_type": "TIMELINE",
+            "file_size": 17275,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/rf1xMHFucnXFps0fKc7QTrt3pKB-qiwsZNWTfdZSkITnTnkASi_NCQdTUK2hHg2aMlWaNa8OPSGepQGV.bD5L2yAAPvBLY48H/A6BHC3SI4eeZ_4iJC0PKABIRMwSDaz3Syc_zd0wrCY01AmGf1dEsazNhj6cc-VA8J3IdOcLaT29NerrymncOmdPIn-LBneFIm_AU1zxVYCQXxVhGf39m80RBU2-qrKPV2W5BQTrE43Je85XWr8fdf3v7OC1_XFVkJLfj4YG-dmBfXAYm8PgLSCnnIPFTKuyEzJzU4_ag4_W0eQ9OxIMQueNtJ67J9XT2HljFuXwv1f6Z56Ghq5qHbq42BaoAAqW2Zd4XSQYw7RpIAyLz5XiT6ORO-4jaqMQCl-mLTfY7NosGWINw8HBb5TGN7wdmmWHhx5sLqKbIMJq6oHrAewXgUA",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          }
+        ],
+        "session_key": "",
+        "session_id": "M1kAp/2qRvSiYJmoDGIsvw=="
+      }
+    },
+    "event_ts": 1772548224835,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJNMWtBcC8ycVJ2U2lZSm1vREdJc3Z3PT0iLCJleHAiOjE3NzI2MzQ2MzksImlhdCI6MTc3MjU0ODIzOSwidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.C1YjHlGIMsFBQ2-16vpvfNbhcws7Avk4PRv7m1-lSp6O3baIpO4-IHcJtxzUmwHgfcAFIm_Tvqs22C4RzWjHMA"
+  },
+  {
+    "receivedAt": "2026-03-03T14:33:09.933Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "cool",
+        "start_time": "2026-03-03T14:29:51Z",
+        "timezone": "",
+        "recording_files": [
+          {
+            "id": "4105b0fb-c54c-476c-8bbe-c75da33a3857",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:31:04Z",
+            "recording_end": "2026-03-03T14:32:01Z",
+            "file_type": "MP4",
+            "file_size": 5209849,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/ILA-j90QlLIUgbTJv1iKxcL-4I0DAJQyTYXUAnSgPdvMPTRArn6Brficme4l8tdnIBV4EKtSOOhN9dpL.b84qmiiUNIaE4Qdm/YvTUpZmcHD2UHTQn7cXJtY6zuP6rGdDymhtcrA9x8uIJTcvXIHUgqbqW557hLMiJpfZ_6FUvzWO7OhV9rjhJSqKGW-vhe5U4ERLWskVx9YECeY4oEup9LvCzKPbKPBsbmB3wyO310Hj0MFvbV8-7A8vkPRSFzwzm5onhB5TJ5ApiCfKpxixi5NvlbCU-1ptrrZLn3VmfXuMjDmcvMyDHC9GOfJgrWVikPP3w8NsSSa8ucSX_O98wXdPzli_IMCyKfGJtdH8OR6tCReRYbK9yuKj66yybs7Mcoze86-Y8ql0vgDzFj-EQblWJCWalxTmm9c8ObOCstN3Ot6uZwVszag",
+            "recording_type": "active_speaker",
+            "file_extension": "MP4",
+            "clip_id": ""
+          },
+          {
+            "id": "74f7721a-fab4-4774-9b78-96399d11da3f",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:31:04Z",
+            "recording_end": "2026-03-03T14:32:01Z",
+            "file_type": "TIMELINE",
+            "file_size": 17344,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/EnDCa03bUVArEFXeuN4xPIR0tCt4_LX03Jm4QEdgk2bdUIM5RPz_MgSLBDvb5YGHfGxRte87Q9LkmtXe.yeZojC9jxmpxF-8C/loOy_yGsHvtlQysr03yNzQvzmVuImJS__krxzeAT_tq798NE4uy79roQjWtcaLqy5G3DyewwZNtDuOv0NDCKO5mC7hwiIfR9b49MCzrppXCea4tSLP2M5Yh6AeM9rXQecqXvWMe910UkUbKX0rx5yvrr4qZsDnmaeh_-ZwOr-BRKDzbufVPLXadh1qjjzxcbCGrYMRgJfr8NFWi-RLWxpUNqbC8ej9GRuvleiGpCozWIz8YLBvJwhrHdPPXoX1mySclMHbVd3e0YmW-KZoEFhRdmWkJPHzmmEhbIqlShFNPLOaNEqgdA1KaedQC113SVaOpHl0Vo-lHjpFoY1845IQ",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          },
+          {
+            "id": "153d8136-61a8-438b-ac7d-2e07da6cb4dd",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:29:53Z",
+            "recording_end": "2026-03-03T14:31:02Z",
+            "file_type": "MP4",
+            "file_size": 5551612,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/WdAN-_IvBZA-CVzrkvukaEWU4x3pzxX25-npxGlX0GtIqwcXxezdya3QYXq7NxX-p5zLS6KZUDvZyOnk.SYrXGavTb8kG07jy/l3SyysAgdRplRKJDIGHtcGh3c-gjwtGU56ExIB5uX6_sLe0UuNRjnpLGkVb_D9onutGV8wyTSmvQrupEqFJ2wxjXSRmMg_hoIdl7FnEWcvsNASFMKIJieDIqAslJDE0_c2TQZNAMEN0W6P792PCR1A2cjI22_0O9y1w7e2FEXZjM6EPIFotWoFDNjlal_DlMD_HJB97PXVjQjD_YTl7uzdDkZ_Z9evdcQU52k2P9XBcFFCNv1PsAl08jt9-cYcRmFk-16cTZC8H_EDa2ZH6gDzG5ei02UC109F-E7gDmgKyDtqgCn6ZgnjzUYKuPJ-qUBe9glufMv2Qvg-j8yntq5A",
+            "recording_type": "active_speaker",
+            "file_extension": "MP4"
+          },
+          {
+            "id": "4998c8e9-5c33-4b56-803d-119aff229573",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:29:53Z",
+            "recording_end": "2026-03-03T14:31:02Z",
+            "file_type": "TIMELINE",
+            "file_size": 45240,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/aDtCeHPegqAoqPiyrQbWk-vyx9Y4rrQEwArSH9GdSlN4T8cATiIS4sjVw40BBZYbY4W1K8BhsoMMSqSC.ADYD5oH9LRBalqI3/gBqi5udUX7O31WWrN7YmLdiut7zdQy3xTWaRVzdunmUy0SV8GmrXtZq750gNN3W-U6AH48A8ixT4g7Jyr78izYFdbu17Xi9PsqoQQ5Awv37XSuYTMyg2OAhOu8URTIKjjZx9yZKgRvqUSvauQRaGN65oUFBMprZvbUs9N7Ik65OzUEXElepbp6ZhePudXbpewBDL6X7iM50sQvxGn6JoOZhECeGPQ6nttWWdKeHh-05g7D4t1Cyned1BXxY0oYZhsFhinY9W4EN0ol03h9U9FzqLQ9vCqgyz9LlosdyBLNlTunlRo8fJmyI74aF1GbRL3LBFoUXTz6K_a6Xg23QvNg",
+            "recording_type": "timeline",
+            "file_extension": "JSON"
+          }
+        ],
+        "session_key": "",
+        "session_id": "z1q4nV6UR+2VjP+7vxgPjA=="
+      }
+    },
+    "event_ts": 1772548374550,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJ6MXE0blY2VVIrMlZqUCs3dnhnUGpBPT0iLCJleHAiOjE3NzI2MzQ3ODksImlhdCI6MTc3MjU0ODM4OSwidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.000kEcBpgwcyQlipUG9RDJoi-_gZATCyUw76TAbjscca1cIQHoLKXdZqn_JJqRcvTk40sR4jPzokbNZZ2vlOSg"
+  },
+  {
+    "receivedAt": "2026-03-03T14:38:50.135Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "cool-2",
+        "start_time": "2026-03-03T14:37:12Z",
+        "timezone": "",
+        "recording_files": [
+          {
+            "id": "56910eae-ca31-48c6-b63d-504525693efc",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:37:14Z",
+            "recording_end": "2026-03-03T14:37:56Z",
+            "file_type": "TIMELINE",
+            "file_size": 5816,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/SraL6_nTbOsx8mL9eKQZQB7oTAcNtaZgjT2z5paTosKvF4DggcDnXLhYZGnWHTf5xxveO91w1kBlZdXk.QaaNDd7ewtygCXKQ/DWBkhMlh72ezRVl50QbpKcSmf8Y1U1pjsnLMmgCPhY1zDOf6Xt0IUkZF-GcscNpWVvCKpa0wsODdzKclsMu7yNUhR072F_qGdfSaYcEYP8zE2bZBrnjW57uf9bEFfW0sgC_NRdfrAqD8bVvyJY6LTnNoaouBQNTW24iglHuAmMUNUJEWXOfZA4_mUPCBpqEP59T8N9nX5WyDyjt7-TDabbMQsXO-JZx7Ljxo9sR8V6MudDO1h2WuW3JHFBMIOX4aj25cZEfeqnEGcza_sZmHCmlieNEbSRy2m5pLamtmNF4VDp_rR_MX8q_TsnffQcnRdUPMVSyy7hVXYnjs_ETrsA",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          }
+        ],
+        "session_key": "",
+        "session_id": "V9w5nx5pToiAvM5kvyfeYQ=="
+      }
+    },
+    "event_ts": 1772548713968,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJWOXc1bng1cFRvaUF2TTVrdnlmZVlRPT0iLCJleHAiOjE3NzI2MzUxMjksImlhdCI6MTc3MjU0ODcyOSwidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.iLrcUUE8sS3MCIsWUPrsCeUfM9j2GwyfqImuJ3v_ShQszhtlZkbFj6FA16gSKMiO1K5Zbq-pbD6fBMdoE7wTpw"
+  },
+  {
+    "receivedAt": "2026-03-03T14:39:12.543Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "%20cool-2",
+        "start_time": "2026-03-03T14:37:13Z",
+        "timezone": "",
+        "recording_files": [
+          {
+            "id": "0d1ce96b-b888-40a1-8ee9-e64dbb9abbfd",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:37:15Z",
+            "recording_end": "2026-03-03T14:38:02Z",
+            "file_type": "TIMELINE",
+            "file_size": 1636,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/wTtkgJu1OYhmGq_LLF8Y9HLNP4xHaL6h4UVpSYGok5mJmRwO_5WZ9O58zZ810BXzW-nBugZ2lN9ZuQ0j.JkBgDcFIIGuYIKic/Qr0kWf5QaIjeMJFXXxS_tcPT7Yh7KWXdlpLye0eZY5CvEjzyyTc_tTblSavWht2EwZPVDJc-RvQGA7sjH234WI43rtKWx8mhxJULSZkPIT_N2VBApAuwLGup85WsoFREf41ISJklmhQWdXLYZLPS2ZSOwT4xIsPl795rSjGPLf0BuWC5gt1bLO6QaxDK_AXHOZk2yIllLtX4RFZ3irqlxJAisGmi3tsJiDx8sLWmSOVdYgc1qvP7HSKwm5c6JReVIWVwqcyPbDviQ3p45yk-fGlkfbQ9HiJZpQhQYWBMdQrVh9Zq78voLhvHvGabLN_ZcgtKdoBuBrMaLnWD-v9iiA",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          }
+        ],
+        "session_key": "",
+        "session_id": "UQOWiGYPQUW3iNkLVh3rfw=="
+      }
+    },
+    "event_ts": 1772548736644,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJVUU9XaUdZUFFVVzNpTmtMVmgzcmZ3PT0iLCJleHAiOjE3NzI2MzUxNTIsImlhdCI6MTc3MjU0ODc1MiwidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.rZl3h7kEG89vrxIbob1lLj_Rb-BOooRENuMrbPSG9KzCeIwzc9azPZYgRwD_o3zthkhC0e8u2SMl6eEhpqyGjQ"
+  },
+  {
+    "receivedAt": "2026-03-03T14:41:18.910Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "sample-cool",
+        "start_time": "2026-03-03T14:39:03Z",
+        "timezone": "America/Los_Angeles",
+        "recording_files": [
+          {
+            "id": "afe2378a-f620-4510-b085-9bd8d2030e0a",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:39:06Z",
+            "recording_end": "2026-03-03T14:40:02Z",
+            "file_type": "TIMELINE",
+            "file_size": 15266,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/_snaEwZgE1vDCgSJ_hGjNEmd7-xejrW7IIcGXkRHdTbMeNBSHbpvfp8yF8OpwI8E1KBV-7tFhpjazmj6.raznqikDlepQixoo/fTnYc5bjyFnWjp_aMoQ3mSXQmYQVit35UXNlQsJCuEoOPIBRsIJcpqM6pPeiWJT0jp-H0J4NIUeRG1t5_eBWDWwPbLfaAQXBLQDctwDdcz3FhhROg0YPxBHxZP_IfEVNqPayepZHxof6A3BYQhLkvUKoeLImdEFm5gMbZLggggNNG2kpXF3H30ngSKS8dvup-qHqfBU-jTggdwZ4xa2Yq_H9ZvjZp9kt9tAGUvJhuOYYBx-r4SbwvizXxFkBnd-JF4MCPYP8YO7MbHnVISoUirAebU8wLq83BcaGIj9gaewDoTvxQP8FNPYeeRLPCBemrQpH-ubnAaFwBdNil-D1Fw",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          }
+        ],
+        "session_key": "",
+        "session_id": "ltgxWt4VTI6cGrc1vRdMEw=="
+      }
+    },
+    "event_ts": 1772548863293,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJsdGd4V3Q0VlRJNmNHcmMxdlJkTUV3PT0iLCJleHAiOjE3NzI2MzUyNzgsImlhdCI6MTc3MjU0ODg3OCwidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.f4nRLJ2xKJfjstvolpLTfYXUDmmqsGUqEg8AKsd7zBFkoqb9xQL1wapiRC8_z9nMyssaPGaigvWZGOfMh06oAw"
+  },
+  {
+    "receivedAt": "2026-03-03T14:44:42.513Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "DXY",
+        "start_time": "2026-03-03T14:42:35Z",
+        "timezone": "America/Los_Angeles",
+        "recording_files": [
+          {
+            "id": "2b421963-54f2-4fc4-a682-1336b13242bf",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:43:14Z",
+            "recording_end": "2026-03-03T14:43:23Z",
+            "file_type": "MP4",
+            "file_size": 399846,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/l-UsiHyedQCf4zHLaOpe11DcEal-1507YBqXgSmXnKct2XqPHWFHYnH-Q119VXxEZoARr7SEamEkusd_.B3cb4FVAc2ZgdlXZ/b7O_Un-QExTJSsvQ3NQZ2LWfBhhcvoaMcCHu93h9Wp_DOlF4U8Ngva6cEddS4KGCbGmhC0M_jrB7Pw1JvZcPx0oVeUjB8_i7SCXJWWS4qDwQIu97yyXnrbMJ3Cdhrp55X7uL8n3R8rDVgia6E9aknKnANCbNhVJoYSF03rGwkIBbHKOiibd-kWc9F1yTfKRIa9Odxt7niZfk_zHFp4iLzhQ9zlWVsvq_0ND0gcTJEfn0gWGyq4jnHSDP7sPBvb8G3K7pkASq4WGiX9vJlRqJQ_rEP47jIN0wZldKbYAfZJN-Q123mCifYI6v8g-ItP3Jgk2NRgIu9eiEulMjM-GbFw",
+            "recording_type": "active_speaker",
+            "file_extension": "MP4",
+            "clip_id": ""
+          },
+          {
+            "id": "6f61e5c8-23e2-4315-85f7-95de0fd19450",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:43:14Z",
+            "recording_end": "2026-03-03T14:43:23Z",
+            "file_type": "TIMELINE",
+            "file_size": 12721,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/1DAMZH_AF7ibiXtzXBLFpDxi9jDbfMOdqzs680NC5mT6U_iCDMnXC1oHMbFMebaYbA7g9PKWNQwxV0Va.dltCM1djkOzTgKms/T_oHdfnACH8m1rC9V9sfz6MvU3BU1bEeJz2RLSaP07N5pMMyilz9Xkjj4C7M9wXH4cunKs3JUv0ikURFLnAwKmLUqUnPeE_2Ledexck07pYmeSEOwxrXcbYiag5JY3BBz6HlyZ3beg-1Bsav2vQnBO5EILhty8PU-ORypBTJvIlDOkjfcujnPOoXuUT9Dft1kbHeAtgK2LcXYAjM_dJjgh5gVWtPXdjDIjsqHvpZ9PTtha0fj6ZLP4z5uLGHeYwaHA4XbR3IEB28Hxo7nr5dpJREEASw4NaygGdPZidOq2_1fFTL86HUlY_5zKM4plJo7HsfFTY4ptmi1EiQ_592sg",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          }
+        ],
+        "session_key": "",
+        "session_id": "n6L/F/vHSXaCjjva9b5v0A=="
+      }
+    },
+    "event_ts": 1772549066348,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJuNkwvRi92SFNYYUNqanZhOWI1djBBPT0iLCJleHAiOjE3NzI2MzU0ODIsImlhdCI6MTc3MjU0OTA4MiwidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.GF-ql46jrWMxTR3tS4dflKjb3DrabqXBXsYkRpObFbIHJHu-2bRzWgz-qKC52Ho6Gno3u727HSCQl220MpAjag"
+  },
+  {
+    "receivedAt": "2026-03-03T14:49:54.846Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "234",
+        "start_time": "2026-03-03T14:47:44Z",
+        "timezone": "America/Los_Angeles",
+        "recording_files": [
+          {
+            "id": "d51c979f-27b5-4531-ba4d-0d659f603ea6",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:47:51Z",
+            "recording_end": "2026-03-03T14:48:25Z",
+            "file_type": "MP4",
+            "file_size": 1577528,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/Eqx-_QW7roWSy0fNZYY4CK7inD3maylZtHzsm9Nlqmv30NMRcVFAztDBwAKhNzClpMZ2gAevoY4kZNp0.cONwIXp0UvmFJ9FW/mC2ju60l102IKrlzbg9V4DO6W66MVvB9E83SnnHSlENQ7wJZwQnnwVq09qPzq-WOACzJ18_7LneNihoQ3dCWe-qhHG-bu8-Y4SThcax9--RHxiJxZZ36Q7XGeAcWpDubgZ8__WrrspzCpMazsI4Zj95RzVviSMv6bNmRW8xqV3rb2CtUN9Q55VRuNV0tr5qGWY0fNYomRoMbJ2A4K7QWn2w_SPUHXngZ0RdOgVD5R6iYkqLNHkV88U1Q8OtEAQLStuQtmzuOqgh9UIvolvezCyiPwDiSaGrHPxEolju5X3KaXL0UWkEAwIsmE9AQqXEs5pschjwptweDjtWKMovXew",
+            "recording_type": "shared_screen_with_gallery_view",
+            "file_extension": "MP4",
+            "clip_id": ""
+          },
+          {
+            "id": "a09314f3-fdda-42c0-9439-28f63d6daccb",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:47:51Z",
+            "recording_end": "2026-03-03T14:48:25Z",
+            "file_type": "MP4",
+            "file_size": 698844,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/CLQGfsuQTjPzL5qSAuYBveGb5fR3TnM9NM5rNPftsldmiTn1Vdb23qFywfyVgWkH5B6KMsE4kjZ_M33q.XkG8VhNfY_dAqMIR/Gme6r3BvNCnfcRI7-OmOLSZAmd_ykbCrSOAtKO5MkFmJq3wKpJlBSexoXmYajXEk6JOOxVqVz79Y6MIHZQb_97K7ed2kUkY2fEt1RDpufmmbQkEofcQDr3kCcI5V_VlTjj_hv_9AtfZzGzOSXir-b2FfB1P_hnALBpPKLz0JUtjVw1SeGO6MfWxYw3Hx4hISoLLF-J0Xhk6M9zwFDuRkcuE1OoL2Z2Sna-iFIbE09EXbRmpyO1KBsdX-hkWmdcpbnkFoqa1K1XDAsqZnhSZbenS8bbnsIaw5gB7SNT7KBO7B_mH34kZhRt3mibQeEwnR0oVUcROhGKQ1Sh9Y0V6APQ",
+            "recording_type": "shared_screen_with_speaker_view",
+            "file_extension": "MP4",
+            "clip_id": ""
+          },
+          {
+            "id": "26c1c878-6ca6-4f27-9c51-78c35fa43564",
+            "status": "completed",
+            "recording_start": "2026-03-03T14:47:51Z",
+            "recording_end": "2026-03-03T14:48:25Z",
+            "file_type": "TIMELINE",
+            "file_size": 87595,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/e80VKp4xmz5WaaqzRbyylhAgMhqhH__pHhSW-PR7_rqn6NeOswz2Lv5bHTeVLDXGt4yxge0kDgsN4ftL.ymutwX9ntHghRosU/nFyjjZY4APjAL6edMF7rvLV7EgiOD7A286LPh4AlLYq1ChCDXN8iHMZ20OCMDLsShqOHeT5RdYQjivPungEcawWGUkmNynCf-yW_s2oL5sztXclZqAxVxaIIfYIvuvfh46EhrIsHA2Gbm_cd65pFlwKescku-Vl3pGK8-AahU_pV1F6X7o0PhzpFGw_kZOiaKSBhdSCKz8TESZqzwXRFB7odXlacKNacIB6R7mV65qfVbtj2Ty2_LdOnNdPI7Wzh126Vkg-XKBgLZCICq60_P48T9IoMl2MgFKeaEDJKrf_YIXnDBlT71UwUDaL5iSo6qxTxuTLdXPamcIzQWqy4EA",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          }
+        ],
+        "session_key": "",
+        "session_id": "NEARomlKSuiTEsWq87Ln/A=="
+      }
+    },
+    "event_ts": 1772549378518,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiJORUFSb21sS1N1aVRFc1dxODdMbi9BPT0iLCJleHAiOjE3NzI2MzU3OTQsImlhdCI6MTc3MjU0OTM5NCwidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.Sd6XsGv7qut0_bwuNihmtQ_SKysCJh6N8-MV54p3YLHvIKyIRsjFaev1l6EgFvtXEK1CbygAxj3XOazK0H9zLg"
+  },
+  {
+    "receivedAt": "2026-03-03T15:36:38.157Z",
+    "event": "session.recording_completed",
+    "payload": {
+      "account_id": "vPtl1euKSnemXlKVRIfksA",
+      "object": {
+        "session_name": "rest-session-1",
+        "start_time": "2026-03-03T15:09:31Z",
+        "timezone": "America/Los_Angeles",
+        "recording_files": [
+          {
+            "id": "6f820352-4b31-4c17-baf3-f949f46ceb9b",
+            "status": "completed",
+            "recording_start": "2026-03-03T15:09:43Z",
+            "recording_end": "2026-03-03T15:12:50Z",
+            "file_type": "MP4",
+            "file_size": 3506914,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/b2kt07nz8bwv6pcf-WXr6MU7oLYEwQYoJKTyVf9oftMpF3ef2lvyQ9K8bjq0t7E-N-fq6ijrFWFrGCIf.oPEH2xNmZeXWG2s2/DnDeMOx1fd5I8skh0FNiunD61ZXGO31rnR77xoqvsllIWnI_XOc319n2r01IXV5CWxja8oI4lKUU7Cs9Qhabk_zwQm_lHCIi8I-qMv0JItXewzx233k03tQRstomInyQHXH4X77s3BmAxtOvBXa4YXyCMwjT63pIfRuqO-Eg_FwYWpUHTcSMAsV3LZg494Ypj56A5qAIt7HdT3TP6WrkRqEk35cfbdxHrlCfGBrfT2QvnJzxsp7eHjxczxHmZRWI2jIHh8QCDo9UuoUPzxaBH4xZVGsTPBmB_Ac_MHpdH8ygZ57DDzciICWveRlQ9AH1ZugtC7H_sQtfbHQ8j4rEWg",
+            "recording_type": "gallery_view",
+            "file_extension": "MP4",
+            "clip_id": ""
+          },
+          {
+            "id": "b8f16c4d-c72b-49c9-ac60-f01b68fcaa3f",
+            "status": "completed",
+            "recording_start": "2026-03-03T15:09:43Z",
+            "recording_end": "2026-03-03T15:12:50Z",
+            "file_type": "TIMELINE",
+            "file_size": 26347,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/1QVQgd8VvsCkHxqHv8IlDMqLOti6HP1ZXS3qRgjce7adNalRLrVw_YYw9AIgE9oh0SQ0NTujzgTj-1au.bD8nxnfp0lTlvUUV/f_RnNUZyZDt5kn4KYZ6pFcqxlq9M7Cb6mpmha42Anx85Omb6LMqZyvyXu4SkSfg9u5RvpjPHP9k5J-DLeaLiDq7bKeLHsTkajagcAzUNAGIYshflLNtKhse33qqX5u7LjziemKOoJl2ZKgSzyd9ns2SmFMqmPemt__hJQr2aRrL-kOII9abXtwl8-6pM2_zL8FlNp_6vRVBUbOk4Y3nPpVY1trVaCHEMHcr4fA-_kjXIQC-RM4d2V0ZCT1XRzt7z3rFyrz-GtBSl_gLtI4BNaHGFiaaiCmZokcEuhmxz6V4ASTwblWVy0h5eGHCRcheBm6TiKy3C0ix7UWOctOYuAA",
+            "recording_type": "timeline",
+            "file_extension": "JSON",
+            "clip_id": ""
+          },
+          {
+            "id": "91b96968-0f5c-41a2-88d8-ecf3efdbce4c",
+            "status": "completed",
+            "recording_start": "2026-03-03T15:09:43Z",
+            "recording_end": "2026-03-03T15:12:50Z",
+            "file_type": "MP4",
+            "file_size": 2161231,
+            "download_url": "https://us05web.zoom.us/rec/webhook_download/88RElN3_Q4IsY8HFo-GPpUx21H72IIuws97sFF-PHld4vb8u00BBJqJhWhRAFnLaFulM5e-jTnvhs097.8do7gGRgrRQbyfhs/tL72HWQXZTHEdnJlqhVkntv1Aad3Kr2TyFmaR5uljLnVAotWqEYvb727jjiE5EAnJAlxkFac0pqa201K65XlAwe_L_UDA7lw9iF0ZQkkMu3WbdxV797zn4ocPZPIsU-TM_YJV5XSbRCIA0zIhcloYEEHvmVXwVcEOn4rveYuMPITI3N5kxpQJKzhyFQh7OdqkNEuI36ywQADDeJB_cpGxgzlfMorbwAoaj7Ro8fdILF_IGaJZ2c-B6H-WIqZB-GE-SdX5S4aG8SSQ7GYyVyvkSZG1OeWAS6CLGP4OSsyD7BkD2BUpXkL3t2hjIcpplcukuL6O4-ddJZ6JuWGM3QW7g",
+            "recording_type": "active_speaker",
+            "file_extension": "MP4",
+            "clip_id": ""
+          }
+        ],
+        "session_key": "",
+        "session_id": "5RC0WPS2RuKTuwWCbb7R6g=="
+      }
+    },
+    "event_ts": 1772552181854,
+    "download_token": "eyJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJhdWQiOiJXZWJSZWNEb3dubG9hZCIsImFjY291bnRJZCI6InZQdGwxZXVLU25lbVhsS1ZSSWZrc0EiLCJpc3MiOiJFdmVudENvbnN1bWVyUmVjRG93bmxvYWQiLCJtaWQiOiI1UkMwV1BTMlJ1S1R1d1dDYmI3UjZnPT0iLCJleHAiOjE3NzI2Mzg1OTcsImlhdCI6MTc3MjU1MjE5NywidXNlcklkIjoidm1lMlBNY0FRX3FqRmJTR1NaUjEzUSJ9.lkgXgzgY8X5EtvTCg7kjsaNZHiFQFjeE3ukCdSGdbIKV28b90E9u6u2NAgFC_PZO5amBiq9TSRAo-obUDsPaUg"
   }
 ]

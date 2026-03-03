@@ -7,7 +7,7 @@ import {
   useRef,
   useEffect,
 } from "react";
-import { Mic, MicOff, Video, VideoOff, PhoneOff } from "lucide-react";
+import { Mic, MicOff, Video, VideoOff, PhoneOff, Send } from "lucide-react";
 import { Button } from "./ui/button";
 import {
   useSession,
@@ -59,6 +59,10 @@ const Videochat = (props: {
   const { isAudioMuted, toggleMute } = useAudioState();
   const clientRef = useRef<any>(null);
   const [transcripts, setTranscripts] = useState<any[]>([]);
+  const [messages, setMessages] = useState<
+    { sender: string; text: string; timestamp: number }[]
+  >([]);
+  const [chatInput, setChatInput] = useState("");
 
   useEffect(() => {
     clientRef.current = ZoomVideo.createClient();
@@ -102,6 +106,46 @@ const Videochat = (props: {
       }
     };
   }, [isInSession, participants.length]);
+
+  useEffect(() => {
+    if (!clientRef.current || !isInSession) return;
+    const chatClient = clientRef.current.getChatClient();
+
+    // Load history from before joining
+    const history: any[] = chatClient.getHistory();
+    if (history.length > 0) {
+      setMessages(
+        history.map((m: any) => ({
+          sender: m.sender.name,
+          text: m.message,
+          timestamp: m.timestamp,
+        })),
+      );
+    }
+
+    const handler = (payload: any) => {
+      setMessages((prev) => [
+        ...prev,
+        {
+          sender: payload.sender.name,
+          text: payload.message,
+          timestamp: payload.timestamp,
+        },
+      ]);
+    };
+    clientRef.current.on("chat-on-message", handler);
+    return () => {
+      clientRef.current?.off("chat-on-message", handler);
+    };
+  }, [isInSession]);
+
+  const sendMessage = async () => {
+    if (!chatInput.trim() || !clientRef.current) return;
+    const chatClient = clientRef.current.getChatClient();
+    await chatClient.sendToAll(chatInput);
+    setChatInput("");
+  };
+
   console.log({ participants });
 
   if (isLoading) return <div>Loading...</div>;
@@ -149,6 +193,35 @@ const Videochat = (props: {
           </Button>
         </div>
       </div>
+
+      {/* {isInSession && (
+        <div className="mx-auto mt-4 w-[30rem] rounded-md border bg-white flex flex-col" style={{ height: "16rem" }}>
+          <div className="flex-1 overflow-y-auto p-3 space-y-1 text-sm">
+            {messages.length === 0 ? (
+              <p className="text-muted-foreground text-xs">No messages yet.</p>
+            ) : (
+              messages.map((m, i) => (
+                <div key={i}>
+                  <span className="font-semibold">{m.sender}: </span>
+                  <span>{m.text}</span>
+                </div>
+              ))
+            )}
+          </div>
+          <div className="flex gap-2 border-t p-2">
+            <input
+              className="flex-1 rounded border px-2 py-1 text-sm outline-none"
+              placeholder="Message everyone..."
+              value={chatInput}
+              onChange={(e) => setChatInput(e.target.value)}
+              onKeyDown={(e) => { if (e.key === "Enter") void sendMessage(); }}
+            />
+            <Button size="sm" onClick={() => void sendMessage()}>
+              <Send className="h-4 w-4" />
+            </Button>
+          </div>
+        </div>
+      )} */}
     </div>
   );
 };

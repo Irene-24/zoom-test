@@ -79,7 +79,12 @@ export default async function RecordingsPage() {
                 </thead>
                 <tbody>
                   {session.recording_files.map((file) => {
-                    const filename = `${session.session_name}_${file.recording_type}.${file.file_type.toLowerCase()}`;
+                    const extMap: Record<string, string> = {
+                      MP4: "mp4", M4A: "m4a", TIMELINE: "json",
+                      TRANSCRIPT: "vtt", CC: "vtt", CHAT: "txt", CSV: "csv",
+                    };
+                    const ext = extMap[file.file_type] ?? file.file_type.toLowerCase();
+                    const filename = `${session.session_name}_${file.recording_type}.${ext}`;
                     const downloadHref = `/api/zoom/recordings/download?url=${encodeURIComponent(file.download_url)}&filename=${encodeURIComponent(filename)}`;
                     return (
                       <tr key={file.id} className="border-b last:border-0 hover:bg-muted/30">
