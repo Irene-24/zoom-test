@@ -28,10 +28,11 @@ type RecordingSession = {
 };
 
 async function getRecordings(): Promise<RecordingSession[]> {
-  const res = await zoomFetch("/videosdk/recordings?page_size=30");
+  const res = await zoomFetch("/videosdk/recordings?page_size=30&from=2026-01-01");
   if (!res.ok) return [];
   const data = await res.json();
-  return data.sessions ?? [];
+  const sessions: RecordingSession[] = data.sessions ?? [];
+  return sessions;
 }
 
 function formatBytes(bytes: number) {
@@ -62,7 +63,10 @@ export default async function RecordingsPage() {
       ) : (
         <div className="flex flex-col gap-8">
           {sessions.map((session) => (
-            <div key={session.session_id} className="border rounded-lg overflow-hidden">
+            <div
+              key={session.session_id}
+              className="border rounded-lg overflow-hidden"
+            >
               <div className="bg-muted px-4 py-3">
                 <h2 className="font-semibold">{session.session_name}</h2>
                 <p className="text-xs text-muted-foreground">{session.session_id}</p>
@@ -80,19 +84,30 @@ export default async function RecordingsPage() {
                 <tbody>
                   {session.recording_files.map((file) => {
                     const extMap: Record<string, string> = {
-                      MP4: "mp4", M4A: "m4a", TIMELINE: "json",
-                      TRANSCRIPT: "vtt", CC: "vtt", CHAT: "txt", CSV: "csv",
+                      MP4: "mp4",
+                      M4A: "m4a",
+                      TIMELINE: "json",
+                      TRANSCRIPT: "vtt",
+                      CC: "vtt",
+                      CHAT: "txt",
+                      CSV: "csv",
                     };
-                    const ext = extMap[file.file_type] ?? file.file_type.toLowerCase();
+                    const ext =
+                      extMap[file.file_type] ?? file.file_type.toLowerCase();
                     const filename = `${session.session_name}_${file.recording_type}.${ext}`;
                     const downloadHref = `/api/zoom/recordings/download?url=${encodeURIComponent(file.download_url)}&filename=${encodeURIComponent(filename)}`;
                     return (
-                      <tr key={file.id} className="border-b last:border-0 hover:bg-muted/30">
+                      <tr
+                        key={file.id}
+                        className="border-b last:border-0 hover:bg-muted/30"
+                      >
                         <td className="px-4 py-2">
                           <span className="font-mono text-xs bg-muted px-1.5 py-0.5 rounded">
                             {file.file_type}
                           </span>
-                          <span className="ml-2 text-muted-foreground">{file.recording_type}</span>
+                          <span className="ml-2 text-muted-foreground">
+                            {file.recording_type}
+                          </span>
                         </td>
                         <td className="px-4 py-2 text-muted-foreground">
                           {formatDate(file.recording_start)}

@@ -17,15 +17,16 @@ export function generateApiJwt(): string {
     "HS256",
     JSON.stringify(oHeader),
     JSON.stringify(oPayload),
-    process.env.ZOOM_API_SECRET
+    process.env.ZOOM_API_SECRET,
   );
 }
 
 export async function zoomFetch(
   path: string,
-  options: RequestInit = {}
+  options: RequestInit = {},
 ): Promise<Response> {
   const jwt = generateApiJwt();
+
   return fetch(`https://api.zoom.us/v2${path}`, {
     ...options,
     headers: {
